@@ -20,7 +20,10 @@ if a > b:
     else:
         print(c, " es el número mayor")   
 else:
-    print(a, " es el número mayor") 
+    if b > c:
+        print(b, " es el número mayor")
+    else:
+        print(c, " es el número mayor")   
 ```
 
 
