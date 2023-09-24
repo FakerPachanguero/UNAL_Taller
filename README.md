@@ -39,7 +39,7 @@ print(n, " es par") if n%2 == 0 else print (n, " No es par")
 
 
 ## 3). Determina si un número es multiplo de otro
->
+>Al igual que en el punto anterior, realizamos la operación módulo pero esta vez entre los dos números, si el resultado es cero, significa que es multiplo.
 ```python
 #VARIABLES
 a : float = float(input("Escribe un número Real: "))
@@ -50,7 +50,7 @@ print(a, " es multiplo de ", b) if a%b == o else print(a, " No es multiplo de ",
 ```
 
 ## 4). Dados tres números. Determina si la suma de los dos primeros es mayor que el tercero.
->
+> Se realiza la suma de los números para posteriormente evaluar las 3 posibilidades con ayuda del condicional if
 ```python
 #VARIABLES
 a : float = float(input("Ingrese un número real: "))
@@ -68,7 +68,7 @@ elif a+b > c:
 ```
 
 ## 5). Dada una letra. Determina si es una vocal o una consonante
->
+>Para este programa se evalúa si el código ASCII de la letra está dentro del rango de las letras, si es así, se evalúa si es vocal o consonante, para ello se creó una lista de los códigos ASCII de las vocales, si el código de la letra coincide con alguno de la lista, significa que es vocal.
 ```python
 
 #VARIABLES
@@ -132,8 +132,8 @@ for i in range (0,5):
 
 # Halla el promedio de la lista
 for a in range (len(numbersList)):
-    promedio = promedio + a
-promedio = promedio/2
+    promedio = promedio + numbersList[a]
+promedio = promedio/len(numbersList)
 print(f"El promedio de la lista es: {promedio}")
 
 
@@ -168,7 +168,7 @@ print(f"La raiz del número menor es: {lowNumber**0.5}")
 ```
 
 ## 7). Dada una frecuencia. Determina en que parte del espectro electromagnético se encuentra
->
+>Para desarrollar este programa se tomó la información del siguiente link : https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico , siguiendo la tabla de bandas de espectro se realizo una cadena de elif, evaluando cada una de las diferentes regiones del espectro.
 ```python
 #VARIABLES
 frecuencia : float = eval(input("Ingresa una frecuencia de onda en hz: "))
@@ -209,7 +209,7 @@ elif frecuencia < 30*10**3:
 ```
 
 ## 8). Dado el nombre de un país de América en minúsculas, arroja su capital.
->
+>En primer lugar de se crearon dos listas, una para los países y otra para las capitales, se evalúa si el país escrito esta dentro de la lista, si es correcto, se toma el index del país para buscarlo en la lista de capitales.
 ```python
 #VARIABLES
 # Paises de America
@@ -237,7 +237,6 @@ p : chr = input("Ingresa el nombre de un país (en español y en minusculas): ")
 
 
 #CODE
-
 if p in countries:
     print(f"La capital de {p} es: {capitals[countries.index(p)]}")
 
@@ -248,7 +247,7 @@ if p in countries:
   - La velocidad del sonido en el aire
   - Un Koenigsegg Jesko Absolut
   - Usain Bolt
->
+>Para este caso sencillamente se sigue la ecuación D = VT,  en donde D es igual a distancia, V es igual a velocidad y T es igual a tiempo. Se toma el dato de la distancia y  se evalúa en los cuatro casos.
 ```python
 #VARIABLES
 
@@ -264,8 +263,6 @@ vCar : float = 0.1477
 # Velocidad Max Usain Bolt
 vBolt : float = 0.0124
 
-# https://www.motor1.com/features/459605/fastest-cars-in-the-world/   revista
-
 #* CODE
 if d > 0:
     print(" La luz tardaria ","{:.3g}".format(d/vLight), f"s en recorrer una distancia de {d}km ")
@@ -274,5 +271,4 @@ if d > 0:
     print(" Usain Bold tarda ","{:.3g}".format(d/vBolt), f"s en recorrer una distancia de {d}km ")
 else:
     print("La distancia tiene que ser mayor a 0 ")
-
 ```
