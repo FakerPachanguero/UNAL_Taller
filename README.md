@@ -270,6 +270,6 @@ if d > 0:
     print(" El auto Koenigsegg Jesko Absolut tarda ","{:.3g}".format(d/vCar), f"s en recorrer una distancia de {d}km ")
     print(" Usain Bold tarda ","{:.3g}".format(d/vBolt), f"s en recorrer una distancia de {d}km ")
 else:
-    print("La distancia tiene que se mayor a 0 ")
+    print("La distancia tiene que ser mayor a 0 ")
 
 ```
