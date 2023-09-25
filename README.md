@@ -212,7 +212,7 @@ elif frecuencia < 30*10**3:
 >En primer lugar de se crearon dos listas, una para los países y otra para las capitales, se evalúa si el país escrito esta dentro de la lista, si es correcto, se toma el index del país para buscarlo en la lista de capitales.
 ```python
 #VARIABLES
-# Paises de America
+# Paises de América
 countries = [
     "canadá", "estados unidos", "méxico",
     "belice", "costa rica", "el salvador", "guatemala", "honduras", "nicaragua", "panamá",
@@ -222,7 +222,7 @@ countries = [
     "haití", "jamaica", "república dominicana", "san cristóbal y nieves", "san vicente y las granadinas", "santa lucía"
 ]
 
-# Capitales de Amrica
+# Capitales de América
 capitals = [
     "otawwa", "washington dc", "méxico df",
     "belmopán", "san josé", "san salvador", "ciudad de guatemala", "tegucigalpa", "managua", "panamá",
