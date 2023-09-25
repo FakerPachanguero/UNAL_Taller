@@ -3,8 +3,10 @@
 ## En este repositorio encontraras toda una serie de funcionalidades básicas escritas en Python. En la siguiente imagen hallaras un notebook para interactuar con el código.
 [![Texto alternativo](icon_nbGoogleColab.jpg )](https://colab.research.google.com/drive/1zVdAh0Uk3JzmpDuXlgGyu9Z7JXUjELDS?usp=sharing)
 
+## 1). QUIZ
+![Quiz](Quiz.png)
 
-## 1). Dados tres números. Determina cual es el mayor.
+## 2). Dados tres números. Determina cual es el mayor.
 > Para este programa sencillamente se hace uso el condicional "If" para comparar los 3 números.
 
 ```python
@@ -27,7 +29,7 @@ else:
 ```
 
 
-## 2). Determina si un número es par.
+## 3). Determina si un número es par.
 > Para determinar si un número es par, tan solo realizamos el modulo 2 del número, si la operación devuelve 0, significa que es el número es par
 ```python
 #VARIABLES
@@ -38,7 +40,7 @@ print(n, " es par") if n%2 == 0 else print (n, " No es par")
 ```
 
 
-## 3). Determina si un número es multiplo de otro
+## 4). Determina si un número es multiplo de otro
 >Al igual que en el punto anterior, realizamos la operación módulo pero esta vez entre los dos números, si el resultado es cero, significa que es multiplo.
 ```python
 #VARIABLES
@@ -49,7 +51,7 @@ b : float = float(input("Escribe un número Real: "))
 print(a, " es multiplo de ", b) if a%b == o else print(a, " No es multiplo de ",b)
 ```
 
-## 4). Dados tres números. Determina si la suma de los dos primeros es mayor que el tercero.
+## 5). Dados tres números. Determina si la suma de los dos primeros es mayor que el tercero.
 > Se realiza la suma de los números para posteriormente evaluar las 3 posibilidades con ayuda del condicional if
 ```python
 #VARIABLES
@@ -67,7 +69,7 @@ elif a+b > c:
     print( f"La suma de {a} + {b} es mayor que {c}" )
 ```
 
-## 5). Dada una letra. Determina si es una vocal o una consonante
+## 6). Dada una letra. Determina si es una vocal o una consonante
 >Para este programa se evalúa si el código ASCII de la letra está dentro del rango de las letras, si es así, se evalúa si es vocal o consonante, para ello se creó una lista de los códigos ASCII de las vocales, si el código de la letra coincide con alguno de la lista, significa que es vocal.
 ```python
 
@@ -94,7 +96,7 @@ else:
     print(f"{c} no es una letra")
 ```
 
-## 6). Dados 5 números, realiza las siguientes operaciones
+## 7). Dados 5 números, realiza las siguientes operaciones
   - Promedio y promedio multiplicativo
   - Mediana
   - Los ordena de mayor a menor, y viceversa 
@@ -167,7 +169,7 @@ print(f"La potencia del número mayor elevado al menor es: {highNumber**lowNumbe
 print(f"La raiz del número menor es: {lowNumber**0.5}")
 ```
 
-## 7). Dada una frecuencia. Determina en que parte del espectro electromagnético se encuentra
+## 8). Dada una frecuencia. Determina en que parte del espectro electromagnético se encuentra
 >Para desarrollar este programa se tomó la información del siguiente link : https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico , siguiendo la tabla de bandas de espectro se realizo una cadena de elif, evaluando cada una de las diferentes regiones del espectro.
 ```python
 #VARIABLES
@@ -208,7 +210,7 @@ elif frecuencia < 30*10**3:
 
 ```
 
-## 8). Dado el nombre de un país de América en minúsculas, arroja su capital.
+## 9). Dado el nombre de un país de América en minúsculas, arroja su capital.
 >En primer lugar de se crearon dos listas, una para los países y otra para las capitales, se evalúa si el país escrito esta dentro de la lista, si es correcto, se toma el index del país para buscarlo en la lista de capitales.
 ```python
 #VARIABLES
@@ -242,7 +244,7 @@ if p in countries:
 
 ```
 
-## 9). A partir de una distancia, calcula cuanto tardaria en recorrerla :
+## 10). A partir de una distancia, calcula cuanto tardaria en recorrerla :
   - La luz en el vacio
   - La velocidad del sonido en el aire
   - Un Koenigsegg Jesko Absolut
