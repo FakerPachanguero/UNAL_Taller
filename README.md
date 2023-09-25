@@ -272,3 +272,5 @@ if d > 0:
 else:
     print("La distancia tiene que ser mayor a 0 ")
 ```
+## Diagrama Correspondiente al punto 10
+[![](https://mermaid.ink/img/pako:eNpVkdFqgzAUhl8l5GoDu1orSAULc-5isIux9s54cTCxhmlS0mPHaPvui0ZKmguJ__cfzodeaK25oCltOv1bt2CQ7AumiD2vJZcnBFULkhKLAUlGpDoO6Pj5Ux5a9Fi02SSbiKnzTg-KeyB8Wcdrm7-BeUhXcZLYONcdPuThKoorslhs86ePhtwttiR8dqvdMx8r170ZxJUUJTqd7N5fOkHXRefk0ymZ6WjmM_s-k0nOR2PgWOVrNNCdrMd7-WWkGicKNyGBCGO0EjDXC9v-dq2MYDcqBrNeMIkEbmlFA9oL04Pk9vdcxmFGsRW9YDS1Vw7mh1GmbrYHA-rdn6ppivZrBHQ4ckBRSDgY6Gk6ud3-AYK6m9E?type=png)](https://mermaid.live/edit#pako:eNpVkdFqgzAUhl8l5GoDu1orSAULc-5isIux9s54cTCxhmlS0mPHaPvui0ZKmguJ__cfzodeaK25oCltOv1bt2CQ7AumiD2vJZcnBFULkhKLAUlGpDoO6Pj5Ux5a9Fi02SSbiKnzTg-KeyB8Wcdrm7-BeUhXcZLYONcdPuThKoorslhs86ePhtwttiR8dqvdMx8r170ZxJUUJTqd7N5fOkHXRefk0ymZ6WjmM_s-k0nOR2PgWOVrNNCdrMd7-WWkGicKNyGBCGO0EjDXC9v-dq2MYDcqBrNeMIkEbmlFA9oL04Pk9vdcxmFGsRW9YDS1Vw7mh1GmbrYHA-rdn6ppivZrBHQ4ckBRSDgY6Gk6ud3-AYK6m9E)
